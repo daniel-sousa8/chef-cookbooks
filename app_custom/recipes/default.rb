@@ -10,6 +10,6 @@
 template '/srv/www/scup/current/.env' do
   source 'env.erb'
   owner 'deploy'
-  group 'deploy'
+  group 'root'
   mode '0644'
 end
